@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Partial rendering in a bootstrap popover"
+date: 2014-02-13 22:55:27 -0700
+comments: true
+categories: octopress bootstrap
+---
+%h3
+	A linkable glossary
+	
+%p
+	This is an attempt to use the Ocotopress 
+	<a href="http://octopress.org/docs/plugins/render-partial/" target="_blank">Render Partial</a> functionality inside a 
+	Bootstrap <a href="http://getbootstrap.com/javascript/#popovers" target="_blank">Popover</a>.
+
+%p 
+	My intent is to use this functionality as a linkable glossary. This popover will contain a basic description of the 
+	concept in question, a list of refereces to more in depth information about the topic and may include links
+	to other blog posts or pages on this site.
+
+%h3
+	Create a partial
+
+%p
+	T  
+
+%p
+	{% render_partial _glossary/jade.haml %}
